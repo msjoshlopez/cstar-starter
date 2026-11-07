@@ -1,0 +1,24 @@
+{
+	"name": "cstar-starter",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"description": "A small custom help desk on the cStar SDK. Clone it, add a key, run it.",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@cstar.help/js": "^0.20.0"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^8.0.0",
+		"@sveltejs/kit": "^3.1.1",
+		"svelte": "^5.57.2",
+		"vite": "^8.3.5"
+	},
+	"imports": {
+		"#lib/*": "./src/lib/*"
+	}
+}
